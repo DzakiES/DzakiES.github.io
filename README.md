@@ -1,16 +1,18 @@
 # Dzaki Endraghani Sunarko - Portfolio 🚀
 
-Personal portfolio website showcasing my data science and machine learning projects.
+Personal portfolio website showcasing my data science, machine learning, and AI automation projects.
 
 ## 🌐 Live Demo
 Visit: [https://dzakies.github.io](https://dzakies.github.io)
 
 ## 🎯 About
-I'm a fresh graduate in Informatics Engineering from Universitas Teknologi Yogyakarta, specializing in:
+I'm a fresh graduate in Informatics Engineering from Telkom University, specializing in:
 - 📊 Data Science
 - 🤖 Machine Learning
 - 🧠 Deep Learning
 - 📈 Data Analysis
+- 🔧 AI Automation & Workflow Automation
+- 💻 Full Stack Development
 
 ## 🛠️ Built With
 - **HTML5** - Semantic markup
@@ -92,23 +94,72 @@ Copy a project card in `index.html` (lines 170-195) and modify:
 
 ## 📊 Featured Projects
 
+### Data Science & ML
+
 1. **Stock News Sentiment Analysis**
-   - AI-powered sentiment analysis using Gemini & OpenAI
+   - AI-powered sentiment analysis using Gemini & OpenAI APIs
+   - Tech: Python, NLP, Gemini API, OpenAI
    - [View Repository](https://github.com/DzakiES/stock-news-ai)
 
 2. **Weather & Climate Analysis**
-   - Time series analysis with Random Forest, XGBoost, and LSTM
+   - End-to-end time series analysis with missing value imputation and anomaly detection
+   - Tech: Python, Time Series, Random Forest, XGBoost, LSTM
    - [View Repository](https://github.com/DzakiES/weather-climate-analysis)
 
 3. **Sensor Data Analysis**
    - Activity detection from accelerometer and gyroscope data
+   - Tech: Python, Signal Processing, Scipy, Activity Recognition
    - [View Repository](https://github.com/DzakiES/sensor-data-analysis)
+
+### AI Automation & Workflows
+
+4. **N8N Lead Automation** ⭐ NEW
+   - AI-powered automation workflow for lead generation and management
+   - Streamlines lead collection, qualification, and CRM integration
+   - Tech: N8N, AI Automation, Lead Management, Workflow Automation
+   - [View Repository](https://github.com/DzakiES/n8n-lead-automation)
+
+5. **N8N Recruitment Pipeline** ⭐ NEW
+   - Intelligent recruitment automation system for candidate screening and interview scheduling
+   - Automates resume parsing and candidate evaluation
+   - Tech: N8N, AI Automation, Recruitment, Resume Parsing
+   - [View Repository](https://github.com/DzakiES/n8n-recruitment-pipeline)
+
+### Full Stack & Other Projects
+
+6. **AURA - Academic Utility for Recognition and Awards**
+   - AI-based system for automating student achievement and scholarship profiling
+   - Role: Front End Developer
+   - Tech: HTML, JavaScript, CSS, Python, AI/ML
+   - [View Repository](https://github.com/itsnotblue/AURA-Academic-Utility-for-Recognition-and-Awards)
+
+7. **TelkomSigma**
+   - Project assignment for TelkomSigma
+   - Tech: JavaScript
+   - [View Repository](https://github.com/DzakiES/TelkomSigma)
+
+## 💡 Technical Skills
+
+### Programming Languages
+Python • SQL • R • HTML • CSS • JavaScript
+
+### ML/DL Frameworks
+TensorFlow • Keras • Scikit-learn • XGBoost
+
+### Data Analysis Tools
+Pandas • NumPy • Matplotlib • Seaborn • Scipy
+
+### Automation & Tools
+N8N • Jupyter Notebook • Google Colab • Git & GitHub
+
+### Specializations
+Machine Learning • Deep Learning • NLP • Time Series Analysis • Data Analysis • AI Automation
 
 ## 📧 Contact
 - **Email:** dzakies2003@gmail.com
-- **LinkedIn:** [dzakisunarko](https://linkedin.com/in/dzakisunarko/)
+- **LinkedIn:** [dzakies](https://linkedin.com/in/dzakies/)
 - **GitHub:** [@DzakiES](https://github.com/DzakiES)
-- **Location:** Bekasi, Indonesia
+- **Location:** Bandung Barat, Indonesia
 
 ## 📝 License
 © 2026 Dzaki Endraghani Sunarko. All rights reserved.
