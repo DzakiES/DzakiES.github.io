@@ -818,10 +818,6 @@ body {
 .project-card:nth-child(3) .project-placeholder { color: rgba(245, 101, 101, 0.7); }
 .project-card:nth-child(4) .project-placeholder { color: rgba(251, 191, 36, 0.7); }
 .project-card:nth-child(5) .project-placeholder { color: rgba(16, 185, 129, 0.7); }
-.project-card:nth-child(6) .project-placeholder { color: rgba(99, 102, 241, 0.7); }
-.project-card:nth-child(7) .project-placeholder { color: rgba(168, 85, 247, 0.7); }
-.project-card:nth-child(8) .project-placeholder { color: rgba(6, 182, 212, 0.7); }
-.project-card:nth-child(9) .project-placeholder { color: rgba(245, 101, 101, 0.7); }
 
 .project-number {
     position: absolute;
@@ -1002,59 +998,47 @@ body {
    Animations
    ========================================== */
 .fade-in {
-    animation: fadeInAnimation 0.8s ease-in-out forwards;
+    animation: fadeIn 1s ease-out;
 }
 
-@keyframes fadeInAnimation {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
 }
 
 /* ==========================================
-   Responsive
+   Responsive Design
    ========================================== */
 @media (max-width: 768px) {
-    .hero-name {
-        font-size: 42px;
-    }
-    
-    .section-title {
-        font-size: 32px;
-    }
-    
+    .hamburger { display: flex; }
+
     .nav-menu {
+        position: fixed;
+        top: 70px;
+        right: -100%;
+        width: 70%;
+        height: calc(100vh - 70px);
+        background: rgba(3, 7, 18, 0.97);
+        backdrop-filter: blur(20px);
+        flex-direction: column;
+        padding: 40px 20px;
+        transition: right 0.3s ease;
+        border-left: 1px solid var(--border-color);
         gap: 20px;
     }
-    
-    .hero-buttons {
-        flex-direction: column;
-    }
-    
-    .btn {
-        width: 100%;
-    }
+
+    .nav-menu.active { right: 0; }
+
+    .hero-name { font-size: 38px; }
+    .hero-title { font-size: 18px; }
+    .hero-description { font-size: 16px; }
+    .hero-buttons { flex-direction: column; align-items: center; }
+    .section-title { font-size: 32px; }
+    .projects-grid { grid-template-columns: 1fr; }
+    #cursor-glow { display: none; }
 }
 
 @media (max-width: 480px) {
-    .nav-menu {
-        display: none;
-    }
-    
-    .hero-name {
-        font-size: 32px;
-    }
-    
-    .section-title {
-        font-size: 24px;
-    }
-    
-    .projects-grid {
-        grid-template-columns: 1fr;
-    }
+    .hero-name { font-size: 30px; }
+    .section { padding: 70px 0; }
 }
